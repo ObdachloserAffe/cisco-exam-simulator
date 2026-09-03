@@ -1,0 +1,58 @@
+.import-hint {
+  font-size: 13px;
+  color: var(--text-dim);
+  line-height: 1.5;
+  margin-bottom: 16px;
+  max-width: 640px;
+}
+
+.import-summary {
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+}
+.import-success {
+  color: var(--good);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.cat-counts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+.cat-count-chip {
+  font-size: 11.5px;
+  padding: 3px 10px;
+  border-radius: 999px;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-strong);
+  color: var(--text-dim);
+}
+.import-errors {
+  margin-top: 10px;
+}
+.import-errors-title {
+  color: var(--bad);
+  font-weight: 600;
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+.import-error-row {
+  font-size: 12px;
+  color: var(--text-dim);
+  padding: 4px 0;
+  border-bottom: 1px dashed var(--border);
+}
+
+.manage-row {
+  margin-bottom: 14px;
+  font-size: 13.5px;
+}
+.toggle-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}

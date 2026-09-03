@@ -1,0 +1,29 @@
+.weakness-list {
+  padding: 10px 20px;
+}
+.weakness-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 13.5px;
+}
+.weakness-row:last-child {
+  border-bottom: none;
+}
+.weakness-name {
+  flex: 1;
+}
+.weakness-count {
+  color: var(--text-faint);
+  font-size: 12px;
+}
+.weakness-percent {
+  width: 60px;
+  text-align: right;
+  font-weight: 700;
+}
+.tone-good { color: var(--good); }
+.tone-warn { color: var(--warn); }
+.tone-bad { color: var(--bad); }

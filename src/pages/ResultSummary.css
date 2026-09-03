@@ -1,0 +1,31 @@
+.result-hero {
+  padding: 32px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.result-hero.pass { border-color: var(--good-dim); background: rgba(61,220,132,0.06); }
+.result-hero.fail { border-color: var(--bad-dim); background: rgba(242,84,91,0.06); }
+
+.result-score {
+  font-size: 48px;
+  font-weight: 700;
+}
+.result-verdict {
+  font-family: var(--font-display);
+  letter-spacing: 0.08em;
+  font-size: 14px;
+  margin-top: 6px;
+  color: var(--text-dim);
+}
+.result-hero.pass .result-verdict { color: var(--good); }
+.result-hero.fail .result-verdict { color: var(--bad); }
+.result-sub {
+  margin-top: 10px;
+  font-size: 12.5px;
+  color: var(--text-faint);
+}
+
+.result-stats {
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 24px;
+}

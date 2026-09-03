@@ -1,0 +1,17 @@
+.settings-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.setting-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 420px;
+}
+.privacy-text {
+  font-size: 13px;
+  color: var(--text-dim);
+  line-height: 1.6;
+  max-width: 640px;
+}
